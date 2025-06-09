@@ -1,2 +1,3 @@
-require("vigierb")
+# require("vigierb")
+require("config.lazy")
 
