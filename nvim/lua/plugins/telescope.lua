@@ -14,4 +14,3 @@ return {
         vim.keymap.set('n', '<leader>ph', builtin.help_tags, { desc = 'Telescope help tags' })
     end
 }
-
