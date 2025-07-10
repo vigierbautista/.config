@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/usr/src/lagoon-client/lagoon_client'
+let g:netrw_dirhist_5='/usr/src/lagoon-client'
+let g:netrw_dirhist_4='/usr/src/lagoon-client/lagoon_client'
+let g:netrw_dirhist_3='/usr/src/lagoon-client'
+let g:netrw_dirhist_2='/usr/src/lagoon-client/lagoon_client'
+let g:netrw_dirhist_1='/usr/src/lagoon-client'
+let g:netrw_dirhist_0='/usr/src/lagoon-client/lagoon_client'
+let g:netrw_dirhist_9='/usr/src/lagoon-client'
+let g:netrw_dirhist_8='/usr/src'
+let g:netrw_dirhist_7='/usr'

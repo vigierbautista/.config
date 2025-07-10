@@ -10,15 +10,15 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.undofile = true
 
-vim.opt.hlsearch = true
-vim.opt.incsearch = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = false
 
 vim.opt.termguicolors = true
 
@@ -29,3 +29,19 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
+
+-- Enable clipboard integration for WSL
+-- vim.opt.clipboard = 'unnamedplus'
+-- -- Explicitly tell Neovim to use win32yank if it doesn't auto-detect
+-- vim.g.clipboard = {
+--   name = 'win32yank-wsl',
+--   copy = {
+--     ['+'] = 'win32yank.exe -i --crlf',
+--     ['*'] = 'win32yank.exe -i --crlf',
+--   },
+--   paste = {
+--     ['+'] = 'win32yank.exe -o --lf',
+--     ['*'] = 'win32yank.exe -o --lf',
+--   },
+--   cache_enabled = 0,
+-- }
